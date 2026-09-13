@@ -1,0 +1,24 @@
+🟢 Level 1 — KMP Basics
+LC 28 — Find the Index of the First Occurrence in a String
+LC 459 — Repeated Substring Pattern
+LC 1392 — Longest Happy Prefix
+LC 686 — Repeated String Match
+LC 796 — Rotate String
+🟡 Level 2 — LPS / Prefix-Suffix Thinking
+LC 214 — Shortest Palindrome
+LC 1397 — Find All Good Strings
+LC 1668 — Maximum Repeating Substring
+LC 1967 — Number of Strings That Appear as Substrings in Word
+LC 3006 — Find Beautiful Indices in the Given Array I
+🟠 Level 3 — Strong KMP Applications
+LC 3036 — Number of Subarrays That Match a Pattern II
+LC 3008 — Find Beautiful Indices in the Given Array II
+LC 2223 — Sum of Scores of Built Strings
+LC 3031 — Minimum Time to Revert Word to Initial State II
+LC 3303 — Find the Occurrence of First Almost Equal Substring
+🔴 Level 4 — KMP + Advanced String Thinking
+LC 471 — Encode String with Shortest Length
+LC 1397 — Find All Good Strings — advanced revisit; focus on KMP automaton
+LC 2223 — Sum of Scores of Built Strings — revisit through prefix-function/Z comparison
+CSES — String Matching
+CSES — Finding Borders
