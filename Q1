@@ -1,0 +1,47 @@
+Given two strings needle and haystack, return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
+
+ 
+
+Example 1:
+
+Input: haystack = "sadbutsad", needle = "sad"
+Output: 0
+Explanation: "sad" occurs at index 0 and 6.
+The first occurrence is at index 0, so we return 0.
+Example 2:
+
+Input: haystack = "leetcode", needle = "leeto"
+Output: -1
+Explanation: "leeto" did not occur in "leetcode", so we return -1.
+ 
+
+Constraints:
+
+1 <= haystack.length, needle.length <= 104class Solution {
+public:
+   vector<long long int >kmp(string s){
+    int n= s.length();
+    long long int i=0,j=-1;
+    vector<long long int>kmpa(n+1);
+
+
+    kmpa[0]=-1;
+    while(i<n){
+        while(j!=-1 && s[i]!=s[j])j=kmpa[j];
+        i++;j++;
+        kmpa[i]=j;
+    }
+    // for(int i=0;i<n;i++) cout<<kmpa[i]<<" ";
+    // cout<<endl;
+    return kmpa;
+      }
+    int strStr(string a, string b) {
+      vector<long long int>ans=kmp(b+'#'+a);
+      int n =a.length()+b.length()+2;
+      for(int i=b.length()+1;i<n;i++){
+        if(ans[i]==b.length()) return i-(2*(b.length())+1);
+
+      }
+      return -1;
+    }
+};
