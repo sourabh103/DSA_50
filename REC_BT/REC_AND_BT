@@ -1,0 +1,215 @@
+==================================================
+   RECURSION + BACKTRACKING — 100 LEETCODE PROBLEMS
+==================================================
+
+PHASE 1 — BASIC RECURSION
+=========================
+
+01. LC 509  — Fibonacci Number
+02. LC 344  — Reverse String
+03. LC 206  — Reverse Linked List
+04. LC 231  — Power of Two
+05. LC 326  — Power of Three
+06. LC 342  — Power of Four
+07. LC 50   — Pow(x, n)
+08. LC 779  — K-th Symbol in Grammar
+
+
+PHASE 2 — TAKE / SKIP
+=====================
+
+09. LC 78   — Subsets
+10. LC 90   — Subsets II
+11. LC 491  — Non-decreasing Subsequences
+12. LC 494  — Target Sum
+13. LC 1239 — Maximum Length of a Concatenated String With Unique Characters
+14. LC 1601 — Maximum Number of Achievable Transfer Requests
+
+
+PHASE 3 — COMBINATIONS
+======================
+
+15. LC 77   — Combinations
+16. LC 39   — Combination Sum
+17. LC 40   — Combination Sum II
+18. LC 216  — Combination Sum III
+19. LC 377  — Combination Sum IV
+20. LC 254  — Factor Combinations
+21. LC 1079 — Letter Tile Possibilities
+22. LC 320  — Generalized Abbreviation
+
+
+PHASE 4 — PERMUTATIONS
+======================
+
+23. LC 46   — Permutations
+24. LC 47   — Permutations II
+25. LC 60   — Permutation Sequence
+26. LC 526  — Beautiful Arrangement
+27. LC 996  — Number of Squareful Arrays
+28. LC 667  — Beautiful Arrangement II
+29. LC 1079 — Letter Tile Possibilities
+30. LC 1947 — Maximum Compatibility Score Sum
+
+
+PHASE 5 — DUPLICATES / UNIQUE GENERATION
+=========================================
+
+31. LC 90   — Subsets II
+32. LC 40   — Combination Sum II
+33. LC 47   — Permutations II
+34. LC 1079 — Letter Tile Possibilities
+35. LC 491  — Non-decreasing Subsequences
+36. LC 996  — Number of Squareful Arrays
+
+
+PHASE 6 — TARGET / SUM BACKTRACKING
+===================================
+
+37. LC 39   — Combination Sum
+38. LC 40   — Combination Sum II
+39. LC 216  — Combination Sum III
+40. LC 494  — Target Sum
+41. LC 698  — Partition to K Equal Sum Subsets
+42. LC 473  — Matchsticks to Square
+43. LC 377  — Combination Sum IV
+44. LC 2305 — Fair Distribution of Cookies
+
+
+PHASE 7 — STRING GENERATION
+===========================
+
+45. LC 17   — Letter Combinations of a Phone Number
+46. LC 22   — Generate Parentheses
+47. LC 784  — Letter Case Permutation
+48. LC 1079 — Letter Tile Possibilities
+49. LC 1087 — Brace Expansion
+50. LC 1415 — The k-th Lexicographical String of All Happy Strings of Length n
+51. LC 1980 — Find Unique Binary String
+52. LC 2698 — Find the Punishment Number of an Integer
+
+
+PHASE 8 — PARENTHESES / VALID SEQUENCES
+=======================================
+
+53. LC 22   — Generate Parentheses
+54. LC 301  — Remove Invalid Parentheses
+55. LC 678  — Valid Parenthesis String
+56. LC 921  — Minimum Add to Make Parentheses Valid
+57. LC 1541 — Minimum Insertions to Balance a Parentheses String
+58. LC 1614 — Maximum Nesting Depth of the Parentheses
+
+
+PHASE 9 — STRING PARTITION
+==========================
+
+59. LC 131  — Palindrome Partitioning
+60. LC 132  — Palindrome Partitioning II
+61. LC 93   — Restore IP Addresses
+62. LC 1593 — Split a String Into the Max Number of Unique Substrings
+63. LC 1849 — Splitting a String Into Descending Consecutive Values
+64. LC 282  — Expression Add Operators
+65. LC 247  — Strobogrammatic Number II
+66. LC 140  — Word Break II
+
+
+PHASE 10 — PALINDROME / STRING BACKTRACKING
+===========================================
+
+67. LC 131  — Palindrome Partitioning
+68. LC 132  — Palindrome Partitioning II
+69. LC 1278 — Palindrome Partitioning III
+70. LC 1745 — Palindrome Partitioning IV
+71. LC 1930 — Unique Length-3 Palindromic Subsequences
+72. LC 1960 — Maximum Product of the Length of Two Palindromic Substrings
+
+
+PHASE 11 — GRID / MATRIX BACKTRACKING
+=====================================
+
+73. LC 79   — Word Search
+74. LC 212  — Word Search II
+75. LC 980  — Unique Paths III
+76. LC 1219 — Path with Maximum Gold
+77. LC 489  — Robot Room Cleaner
+78. LC 694  — Number of Distinct Islands
+79. LC 130  — Surrounded Regions
+80. LC 200  — Number of Islands
+
+
+PHASE 12 — PATH / TREE BACKTRACKING
+===================================
+
+81. LC 797  — All Paths From Source Lead to Target
+82. LC 257  — Binary Tree Paths
+83. LC 113  — Path Sum II
+84. LC 129  — Sum Root to Leaf Numbers
+85. LC 437  — Path Sum III
+86. LC 988  — Smallest String Starting From Leaf
+
+
+PHASE 13 — CONSTRAINT SATISFACTION
+==================================
+
+87. LC 51   — N-Queens
+88. LC 52   — N-Queens II
+89. LC 37   — Sudoku Solver
+90. LC 36   — Valid Sudoku
+91. LC 526  — Beautiful Arrangement
+92. LC 1947 — Maximum Compatibility Score Sum
+
+
+PHASE 14 — BUCKET / GROUP ASSIGNMENT
+====================================
+
+93. LC 698  — Partition to K Equal Sum Subsets
+94. LC 473  — Matchsticks to Square
+95. LC 1723 — Find Minimum Time to Finish All Jobs
+96. LC 2305 — Fair Distribution of Cookies
+97. LC 1986 — Minimum Number of Work Sessions to Finish the Tasks
+98. LC 1601 — Maximum Number of Achievable Transfer Requests
+
+
+PHASE 15 — ADVANCED BACKTRACKING
+================================
+
+99.  LC 282  — Expression Add Operators
+100. LC 943 — Find the Shortest Superstring
+
+
+==================================================
+MASTER PATTERNS COVERED
+==================================================
+
+1.  Linear Recursion
+2.  Binary Recursion
+3.  Take / Skip
+4.  Subsequence
+5.  Subset
+6.  Combination
+7.  Combination with repetition
+8.  Permutation using used[]
+9.  Permutation using swap()
+10. Duplicate handling
+11. Target based recursion
+12. Fixed-size selection
+13. String generation
+14. Character replacement
+15. Parentheses generation
+16. String partition
+17. Palindrome partition
+18. Expression generation
+19. Grid DFS + Backtracking
+20. Word Search
+21. All Paths
+22. Tree Path Backtracking
+23. Constraint Satisfaction
+24. N-Queens
+25. Sudoku
+26. Bucket / Group Assignment
+27. Optimization + Pruning
+28. Boolean Backtracking
+29. Count Backtracking
+30. Backtracking + Memoization
+31. Bitmask-based state
+32. Game / Decision recursion
